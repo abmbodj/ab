@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import MobileWarning from "./components/MobileWarning";
 
 export const metadata: Metadata = {
-  title: "Bhavesh Nankani | Portfolio",
+  title: "ab Nankani | Portfolio",
   description: "Full-Stack Software Engineer - Interactive VS Code themed portfolio showcasing projects and experience",
   icons: {
     icon: '/vs-code-logo.png',

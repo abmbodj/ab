@@ -13,7 +13,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-5xl font-bold text-white mb-6">About Bhavesh</h1>
+          <h1 className="text-5xl font-bold text-white mb-6">About ab</h1>
           <p className="text-xl text-vscode-text leading-relaxed">
             I&apos;m a <span className="text-vscode-syntax-green font-semibold">First Class Honours Software Engineering graduate</span> from the <span className="text-vscode-syntax-blue italic">University of Greenwich</span>, passionate about transforming complex challenges into elegant, scalable solutions.
           </p>

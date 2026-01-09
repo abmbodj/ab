@@ -54,7 +54,7 @@ export default function HomeContent() {
 
   const code = `const ab = ${JSON.stringify(engineerProfile, null, 2)};
 
-export default bhavesh;`;
+export default ab;`;
 
   const displayText = useTypewriter(code, 20);
   const [showCursor, setShowCursor] = useState(true);
@@ -90,7 +90,7 @@ export default bhavesh;`;
         .replace(/\bconst\b/g, '<span class="text-[#c586c0]">const</span>')
         .replace(/\bexport\b/g, '<span class="text-[#c586c0]">export</span>')
         .replace(/\bdefault\b/g, '<span class="text-[#c586c0]">default</span>')
-        .replace(/\bbhavesh\b/g, '<span class="text-[#4fc1ff]">bhavesh</span>');
+        .replace(/\bab\b/g, '<span class="text-[#4fc1ff]">ab</span>');
     }
     
     // Brackets and punctuation

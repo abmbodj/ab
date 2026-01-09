@@ -230,14 +230,14 @@ export default function Home() {
   // Update document title based on active tab
   useEffect(() => {
     const tabTitles: Record<string, string> = {
-      'home.jsx': 'Home | Bhavesh Nankani',
-      'about.html': 'About | Bhavesh Nankani',
-      'projects.json': 'Projects | Bhavesh Nankani',
-      'contact.css': 'Contact | Bhavesh Nankani',
-      'resume.pdf': 'Resume | Bhavesh Nankani',
-      'github': 'GitHub | Bhavesh Nankani'
+      'home.jsx': 'Home | ab Nankani',
+      'about.html': 'About | ab Nankani',
+      'projects.json': 'Projects | ab Nankani',
+      'contact.css': 'Contact | ab Nankani',
+      'resume.pdf': 'Resume | ab Nankani',
+      'github': 'GitHub | ab Nankani'
     };
-    document.title = tabTitles[activeTab] || 'Bhavesh Nankani | Portfolio';
+    document.title = tabTitles[activeTab] || 'ab Nankani | Portfolio';
   }, [activeTab]);
 
   const allFiles = [

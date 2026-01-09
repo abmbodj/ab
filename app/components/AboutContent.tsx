@@ -7,7 +7,7 @@
 // 1. Update personal information in the Hero Section (name, title, bio)
 // 2. Modify techStack object with your technologies
 // 3. Update stats array with your achievements
-// 4. Replace profile picture in public folder (bhavesh.jpeg)
+// 4. Replace profile picture in public folder (ab.jpeg)
 // 5. Update education and work experience sections
 // ============================================================================
 
@@ -70,10 +70,10 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
           >
             {/* Avatar Placeholder */}
             <div className="relative">
-              {/* 🔧 CUSTOMIZE: Replace /bhavesh.jpeg with your photo in public folder */}
+              {/* 🔧 CUSTOMIZE: Replace /ab.jpeg with your photo in public folder */}
               <img 
-                src="/bhavesh.jpeg"                    // 🔧 Your profile picture path
-                alt="Bhavesh Nankani"                  // 🔧 Your name for alt text
+                src="/ab.jpeg"                    // 🔧 Your profile picture path
+                alt="ab Nankani"                  // 🔧 Your name for alt text
                 className="w-32 h-32 rounded-full object-cover shadow-xl border-4 border-vscode-border"
               />
             </div>

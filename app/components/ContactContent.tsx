@@ -43,8 +43,8 @@ export default function ContactContent({ onOpenFile }: ContactContentProps) {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/bhavesh-nankani',         // 🔧 Your LinkedIn username
-      href: 'https://linkedin.com/in/bhavesh-nankani',  // 🔧 Full LinkedIn URL
+      value: 'linkedin.com/in/ab-nankani',         // 🔧 Your LinkedIn username
+      href: 'https://linkedin.com/in/ab-nankani',  // 🔧 Full LinkedIn URL
       color: 'text-[#0077b5]'
     },
     {
@@ -89,14 +89,14 @@ export default function ContactContent({ onOpenFile }: ContactContentProps) {
             </div>
             <div className="flex items-center gap-3">
               <button
-                onClick={() => onOpenFile?.('resume.pdf', 'Bhavesh_Nankani_resume.pdf')}
+                onClick={() => onOpenFile?.('resume.pdf', 'ab_Nankani_resume.pdf')}
                 className="flex items-center gap-2 px-5 py-3 bg-vscode-hover text-white font-semibold rounded-lg hover:bg-vscode-border transition-all border border-vscode-border"
               >
                 <FileText size={18} />
                 <span>View in VS Code</span>
               </button>
               <a
-                href="/Bhavesh_Nankani_resume.pdf"
+                href="/ab_Nankani_resume.pdf"
                 download
                 className="flex items-center gap-2 px-5 py-3 bg-vscode-syntax-blue text-black font-semibold rounded-lg hover:bg-vscode-syntax-blue/80 transition-all"
               >
