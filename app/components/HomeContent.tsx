@@ -33,7 +33,7 @@ export default function HomeContent() {
   // 🔧 CUSTOMIZE THIS OBJECT WITH YOUR INFORMATION
   // ============================================================================
   const engineerProfile = {
-    name: "Abbb Mbodj",                    // 🔧 Your full name
+    name: "Ab Mbodj",                    // 🔧 Your full name
     role: "Full-Stack Software Engineer",       // 🔧 Your professional title
     education: {
       Major: "Computer Science",      // 🔧 Your degree                 
