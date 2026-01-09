@@ -37,10 +37,10 @@ export default function HomeContent() {
     role: "Full-Stack Software Engineer",       // 🔧 Your professional title
     education: {
       Major: "Computer Science",      // 🔧 Your degree                 
-      university: "University of Greenwich"     // 🔧 Your university
+      university: "Arcadia University"     // 🔧 Your university
     },
     techStack: [                                // 🔧 Your main technologies (6-8 items)
-      "Next.js 15 & React",
+      "Next.js 15 & React", "HTML & CSS",
       "JavaScript", "TypeScript",
       "Node.js",
       "Java",
