@@ -71,8 +71,8 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
             <div className="relative">
               {/* 🔧 CUSTOMIZE: Replace /ab.jpeg with your photo in public folder */}
               <Image
-                src="/ab.jpeg" // 🔧 Your profile picture path
-                alt="ab Nankani" // 🔧 Your name for alt text
+                src="/ab.jpg" // 🔧 Your profile picture path
+                alt="Ab Mbodj" // 🔧 Your name for alt text
                 className="w-32 h-32 rounded-full object-cover shadow-xl border-4 border-vscode-border"
               
               />
