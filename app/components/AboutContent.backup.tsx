@@ -13,7 +13,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-5xl font-bold text-white mb-6">About ab</h1>
+          <h1 className="text-5xl font-bold text-white mb-6">About Ab</h1>
           <p className="text-xl text-vscode-text leading-relaxed">
             I&apos;m a <span className="text-vscode-syntax-green font-semibold">Full Stack Engineer/CS Student</span> from the <span className="text-vscode-syntax-blue italic">Arcadia University</span>, passionate about transforming complex challenges into elegant, scalable solutions.
           </p>
@@ -35,8 +35,8 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
               <h3 className="text-lg font-semibold text-vscode-syntax-blue mb-1">
                 Bachelor of Engineering in Software Engineering
               </h3>
-              <p className="text-vscode-textMuted mb-2">First Class Honours • University of Greenwich</p>
-              <p className="text-sm text-vscode-text">September 2022 - May 2025</p>
+              <p className="text-vscode-textMuted mb-2">Arcadia University</p>
+              <p className="text-sm text-vscode-text">September 2025 - Present</p>
             </div>
           </div>
         </motion.div>
@@ -50,7 +50,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
         >
           <div className="flex items-center gap-3 mb-6">
             <Briefcase className="text-vscode-syntax-cyan" size={28} />
-            <h2 className="text-3xl font-bold text-vscode-syntax-cyan">Professional Experience</h2>
+            <h2 className="text-3xl font-bold text-vscode-syntax-cyan">Experience</h2>
           </div>
 
           <div className="space-y-6">
@@ -74,28 +74,6 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                 </li>
               </ul>
             </div>
-
-            {/* UK Student Recruitment Ambassador */}
-            <div className="p-6 bg-gradient-to-br from-vscode-syntax-cyan/10 to-transparent border-2 border-vscode-border rounded-lg hover:border-vscode-syntax-cyan transition-all">
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <h3 className="text-xl font-bold text-white">UK Student Recruitment Ambassador</h3>
-                  <p className="text-vscode-syntax-cyan font-medium">University of Greenwich</p>
-                </div>
-                <span className="text-sm text-vscode-textMuted">Jul 2024 - Sep 2025</span>
-              </div>
-              <ul className="space-y-2 text-vscode-text">
-                <li className="flex items-start gap-2">
-                  <span className="text-vscode-syntax-cyan mt-1">✓</span>
-                  <span>Reduced team email backlog by <strong className="text-white">25%</strong> during peak recruitment cycles</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-vscode-syntax-cyan mt-1">✓</span>
-                  <span>Managed <strong className="text-white">80+ daily emails</strong> and <strong className="text-white">40+ calls</strong> while streamlining workflows</span>
-                </li>
-              </ul>
-            </div>
-          </div>
         </motion.div>
 
         {/* What I Do */}
