@@ -81,7 +81,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
             {/* Header Info */}
             <div className="flex-1">
               {/* 🔧 CUSTOMIZE: Your name, title, and introduction */}
-              <h1 className="text-5xl font-bold text-white mb-4">Bhavesh Nankani</h1>  {/* 🔧 Your name */}
+              <h1 className="text-5xl font-bold text-white mb-4">Ab Mbodj</h1>  {/* 🔧 Your name */}
               <p className="text-xl text-vscode-syntax-blue font-semibold mb-4">
                 Full-Stack Software Engineer  {/* 🔧 Your professional title */}
               </p>
@@ -95,15 +95,15 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
               <div className="flex flex-wrap gap-4 text-sm text-vscode-textMuted mb-6">
                 <div className="flex items-center gap-2">
                   <MapPin size={16} className="text-vscode-syntax-blue" />
-                  <span>London, UK</span>  {/* 🔧 Your location */}
+                  <span>Philadelphia, PA</span>  {/* 🔧 Your location */}
                 </div>
                 <div className="flex items-center gap-2">
                   <GraduationCap size={16} className="text-vscode-syntax-green" />
-                  <span>University of Greenwich</span>  {/* 🔧 Your university */}
+                  <span>Arcadia University</span>  {/* 🔧 Your university */}
                 </div>
                 <div className="flex items-center gap-2">
                   <Calendar size={16} className="text-vscode-syntax-cyan" />
-                  <span>Available for opportunities</span>
+                  <span>Available for internships!</span>
                 </div>
               </div>
 
