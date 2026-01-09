@@ -33,22 +33,21 @@ export default function HomeContent() {
   // 🔧 CUSTOMIZE THIS OBJECT WITH YOUR INFORMATION
   // ============================================================================
   const engineerProfile = {
-    name: "Bhavesh Nankani",                    // 🔧 Your full name
+    name: "Ab Mbodj",                    // 🔧 Your full name
     role: "Full-Stack Software Engineer",       // 🔧 Your professional title
     education: {
-      degree: "BEng Software Engineering",      // 🔧 Your degree
-      honours: "First Class",                   // 🔧 Your honors/GPA
+      Major: "Computer Science",      // 🔧 Your degree                 
       university: "University of Greenwich"     // 🔧 Your university
     },
     techStack: [                                // 🔧 Your main technologies (6-8 items)
       "Next.js 15 & React",
       "JavaScript", "TypeScript",
       "Node.js",
-      "Python (Flask/AI)",
+      "Java",
       "PostgreSQL & MongoDB",
       "AWS & Cloud Architecture"
     ],
-    location: "London, UK",                     // 🔧 Your location
+    location: "Philadelphia, PA",                     // 🔧 Your location
     status: "Ready to Deploy 🚀"               // 🔧 Your current status/tagline
   };
   // ============================================================================
