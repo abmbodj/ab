@@ -39,11 +39,11 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
   // ============================================================================
   // Organize your skills by category for better presentation
   const techStack = {
-    languages: ['Python', 'Java', 'TypeScript', 'JavaScript', 'C/C++'],         // 🔧 Programming languages
+    languages: ['Java', 'TypeScript', 'JavaScript'],         // 🔧 Programming languages
     frontend: ['React', 'Next.js 15', 'Tailwind CSS'],                         // 🔧 Frontend technologies
-    backend: ['Node.js', 'Express', 'Flask', 'REST APIs'],                     // 🔧 Backend technologies
+    backend: ['Node.js', 'REST APIs'],                     // 🔧 Backend technologies
     databases: ['PostgreSQL', 'MongoDB', 'MySQL'],                             // 🔧 Databases you know
-    cloud: ['AWS', 'Azure DevOps', 'Vercel', 'GitHub Actions', 'Git']        // 🔧 Cloud & DevOps tools
+    cloud: ['AWS', 'Vercel', 'GitHub Actions', 'Git']        // 🔧 Cloud & DevOps tools
   };
 
   // ============================================================================
