@@ -256,18 +256,16 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
             <div className="flex justify-between items-start mb-3">
               <div>
                 <h3 className="text-2xl font-bold text-white">
-                  Bachelor of Engineering in Software Engineering
+                  Bachelor of Science in Computer Science
                 </h3>
-                <p className="text-lg text-vscode-syntax-blue font-semibold mt-2">
-                  First Class Honours
-                </p>
+          
               </div>
               <span className="text-sm text-vscode-textMuted">
-                Sep 2022 - May 2025
+                Aug 2024 - Jun 2028
               </span>
             </div>
             <p className="text-vscode-text">
-              University of Greenwich, London, UK
+              Arcadia University, Glenside, PA
             </p>
           </div>
         </motion.section>
