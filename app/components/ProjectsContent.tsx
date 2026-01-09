@@ -126,12 +126,10 @@ export default function ProjectsContent() {
           <div className="flex items-center gap-6 text-vscode-textMuted">
             <div className="flex items-center gap-2">
               <Github size={16} />
-              <span>github.com/BhaveshNank</span>  {/* 🔧 Your GitHub username */}
+              <span>github.com/abmbodj</span>  {/* 🔧 Your GitHub username */}
             </div>
             <span>•</span>
-            <span>25+ repositories</span>
-            <span>•</span>
-            <span>500+ contributions</span>
+            <span>11+ repositories</span>
           </div>
         </div>
 
@@ -244,7 +242,7 @@ export default function ProjectsContent() {
           className="mt-12 text-center"
         >
           <a
-            href="https://github.com/BhaveshNank"
+            href="https://github.com/abmbodj"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-vscode-syntax-blue/20 border-2 border-vscode-syntax-blue text-vscode-syntax-blue rounded-lg font-semibold hover:bg-vscode-syntax-blue hover:text-black transition-all"
