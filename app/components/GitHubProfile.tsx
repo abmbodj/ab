@@ -23,6 +23,7 @@
 
 import { useState, useEffect } from 'react';
 import { ExternalLink, Star, GitFork, Circle } from 'lucide-react';
+import Image from 'next/image';
 
 interface Repository {
   id: number;
@@ -60,7 +61,7 @@ export default function GitHubProfile() {
         // ========================================================================
         // 🔧 CUSTOMIZE: Replace 'BhaveshNank' with YOUR GitHub username
         // ========================================================================
-        const GITHUB_USERNAME = 'BhaveshNank';  // ⚠️ CHANGE THIS!
+        const GITHUB_USERNAME = 'abmbodj';  // ⚠️ CHANGE THIS!
         
         // Fetch user data
         const userResponse = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}`);
@@ -151,9 +152,12 @@ export default function GitHubProfile() {
       <div className="max-w-6xl mx-auto">
         {/* Profile Header */}
         <div className="flex items-start gap-6 mb-8 pb-8 border-b border-vscode-border">
-          <img
+          <Image
             src={user.avatar_url}
-            alt={user.name}
+            alt={user.name || user.login}
+            width={128}
+            height={128}
+            unoptimized
             className="w-32 h-32 rounded-full border-2 border-vscode-border"
           />
           <div className="flex-1">

@@ -14,13 +14,12 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from 'next/image';
 import {
   GraduationCap,
   Briefcase,
   Award,
   Code2,
-  Rocket,
-  Users,
   ArrowRight,
   Calendar,
   MapPin,
@@ -71,10 +70,11 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
             {/* Avatar Placeholder */}
             <div className="relative">
               {/* 🔧 CUSTOMIZE: Replace /ab.jpeg with your photo in public folder */}
-              <img
+              <Image
                 src="/ab.jpeg" // 🔧 Your profile picture path
                 alt="ab Nankani" // 🔧 Your name for alt text
                 className="w-32 h-32 rounded-full object-cover shadow-xl border-4 border-vscode-border"
+              
               />
             </div>
 
@@ -237,7 +237,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                 </ul>
               </div>
             </div>
-            
+          </div>
         </motion.section>
 
         {/* Education Section */}
@@ -283,7 +283,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Object.entries(techStack).map(([category, skills], idx) => {
+            {Object.entries(techStack).map(([category, skills]) => {
               const colorMap: Record<
                 string,
                 { bg: string; border: string; text: string }

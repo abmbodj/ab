@@ -74,6 +74,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                 </li>
               </ul>
             </div>
+          </div>
         </motion.div>
 
         {/* What I Do */}
