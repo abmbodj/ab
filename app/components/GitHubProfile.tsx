@@ -212,7 +212,7 @@ export default function GitHubProfile() {
                 My GitHub profile includes a detailed README with featured projects, tech stack, and more!
               </p>
               <a
-                href="https://github.com/BhaveshNank"
+                href="https://github.com/abmbodj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-sm text-vscode-activityBarBadge hover:underline"

@@ -179,7 +179,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
         newOutput.push('');
       },
       pwd: () => {
-        newOutput.push('/home/bhaveshnankani/vscode-portfolio');
+        newOutput.push('/home/ab/portfolio');
       },
       date: () => {
         newOutput.push(new Date().toString());
@@ -189,7 +189,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
       },
       // 🎭 Easter egg command - fun response
       exit: () => {
-        newOutput.push('There is no escape. You must hire me. 🔒');
+        newOutput.push('There is no escape. You must hire me.');
       },
       // 🔧 ADD YOUR CUSTOM COMMANDS HERE
       // Example:
@@ -198,7 +198,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
       // },
       // 🎭 Another Easter egg
       sudo: () => {
-        newOutput.push('[sudo] password for bhaveshnankani: ');  // 🔧 Your username
+        newOutput.push('[sudo] password for ab: ');  // 🔧 Your username
         setTimeout(() => {
           setTerminalOutput(prev => [...prev, 'Sorry, permission denied.', '']);
         }, 500);
@@ -236,7 +236,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
       }
     } else if (commandLower === 'sudo hire ab' || commandLower === 'sudo hire') {
       newOutput.push('Permission denied: You need to schedule an interview first.');
-      newOutput.push('Run \'contact\' to proceed. 💼');
+      newOutput.push('Run \'contact\' to proceed.');
     } else if (commands[commandLower]) {
       commands[commandLower]();
     } else if (commandLower) {
@@ -355,7 +355,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
 
         {/* Current Input Line - BELOW ALL OUTPUT */}
         <form onSubmit={handleTerminalCommand} className="flex items-center gap-2">
-          <span className="text-vscode-syntax-cyan font-semibold">bhaveshnankani@vscode-portfolio:~$</span>
+          <span className="text-vscode-syntax-cyan font-semibold">ab@portfolio:~$</span>
           <input
             ref={inputRef}
             type="text"
