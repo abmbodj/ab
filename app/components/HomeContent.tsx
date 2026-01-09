@@ -48,11 +48,11 @@ export default function HomeContent() {
       "AWS & Cloud Architecture"
     ],
     location: "Philadelphia, PA",                     // 🔧 Your location
-    status: "Ready to Deploy 🚀"               // 🔧 Your current status/tagline
+    status: "Ready to Innovative!"               // 🔧 Your current status/tagline
   };
   // ============================================================================
 
-  const code = `const bhavesh = ${JSON.stringify(engineerProfile, null, 2)};
+  const code = `const ab = ${JSON.stringify(engineerProfile, null, 2)};
 
 export default bhavesh;`;
 
