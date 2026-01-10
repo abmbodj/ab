@@ -96,7 +96,7 @@ export default function ContactContent({ onOpenFile }: ContactContentProps) {
                 <span>View in VS Code</span>
               </button>
               <a
-                href="/ab_Nankani_resume.pdf"
+                href="/hi.pdf"
                 download
                 className="flex items-center gap-2 px-5 py-3 bg-vscode-syntax-blue text-black font-semibold rounded-lg hover:bg-vscode-syntax-blue/80 transition-all"
               >

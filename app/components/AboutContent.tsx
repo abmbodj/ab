@@ -1,15 +1,3 @@
-// ============================================================================
-// 🔧 ABOUT PAGE - YOUR PROFESSIONAL STORY
-// ============================================================================
-// This page showcases your background, education, skills, and experience.
-//
-// TO CUSTOMIZE:
-// 1. Update personal information in the Hero Section (name, title, bio)
-// 2. Modify techStack object with your technologies
-// 3. Update stats array with your achievements
-// 4. Replace profile picture in public folder (ab.jpeg)
-// 5. Update education and work experience sections
-// ============================================================================
 
 "use client";
 
@@ -33,10 +21,7 @@ interface AboutContentProps {
 }
 
 export default function AboutContent({ onOpenFile }: AboutContentProps) {
-  // ============================================================================
-  // 🔧 CUSTOMIZE: YOUR TECHNICAL SKILLS
-  // ============================================================================
-  // Organize your skills by category for better presentation
+
   const techStack = {
     languages: ["Java", "TypeScript", "JavaScript"], // 🔧 Programming languages
     frontend: ["React", "Next.js 15", "Tailwind CSS"], // 🔧 Frontend technologies
@@ -45,10 +30,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
     cloud: ["AWS", "Vercel", "GitHub Actions", "Git"], // 🔧 Cloud & DevOps tools
   };
 
-  // ============================================================================
-  // 🔧 CUSTOMIZE: YOUR KEY STATS/ACHIEVEMENTS
-  // ============================================================================
-  // Highlight impressive numbers or achievements
+ 
   const stats = [
     { label: "First Class Honours", value: "🏆", color: "blue" }, // 🔧 Your top achievement
     { label: "Technologies", value: "15+", color: "green" }, // 🔧 Number of technologies
@@ -130,7 +112,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                     </button>
                     <button
                       onClick={() =>
-                        onOpenFile("resume.pdf", "Bhavesh_Nankani_resume.pdf")
+                        onOpenFile("hi.pdf", "hi.pdf")
                       }
                       className="px-5 py-2.5 bg-vscode-sidebar border border-vscode-border text-white rounded hover:border-vscode-activityBarBadge transition-all flex items-center gap-2 font-medium"
                     >

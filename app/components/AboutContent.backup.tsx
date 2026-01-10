@@ -125,7 +125,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
           className="mb-10"
         >
           <h2 className="text-3xl font-bold text-vscode-syntax-blue mb-8 flex items-center gap-2">
-            💡 Tech Stack
+            Tech Stack
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
