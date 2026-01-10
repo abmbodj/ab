@@ -89,7 +89,7 @@ export default function ContactContent({ onOpenFile }: ContactContentProps) {
             </div>
             <div className="flex items-center gap-3">
               <button
-                onClick={() => onOpenFile?.('resume.pdf', 'ab_Nankani_resume.pdf')}
+                onClick={() => onOpenFile?.('hi.pdf', 'ab.pdf')}
                 className="flex items-center gap-2 px-5 py-3 bg-vscode-hover text-white font-semibold rounded-lg hover:bg-vscode-border transition-all border border-vscode-border"
               >
                 <FileText size={18} />
