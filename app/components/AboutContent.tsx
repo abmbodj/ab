@@ -235,7 +235,8 @@ processes and reduced ticket resolution time.
                   <li className="flex items-start gap-2">
                     <span className="text-vscode-syntax-green mt-0.5">▸</span>
                     <span>
-                      Text
+                      Assist with inventory tracking and preparation of IT equipment, supporting organization-wide technology updates
+and device rollouts.
                     </span>
                   </li>
                 </ul>
