@@ -222,11 +222,14 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                   <li className="flex items-start gap-2">
                     <span className="text-vscode-syntax-green mt-0.5">▸</span>
                     <span>
-                      Text{" "}
+                      Diagnose and resolve hardware, software, and network issues for students, faculty, and staff, consistently handling
+50+ support requests per week.{" "}
                       <strong className="text-white">
-                        Text
+                        Configure, deploy, and maintain campus workstations, printers, and classroom technology to ensure reliable
+day-to-day operation.
                       </strong>{" "}
-                      Text
+                      Document recurring technical issues and propose workflow improvements, contributing to smoother troubleshooting
+processes and reduced ticket resolution time.
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
