@@ -170,11 +170,11 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
             <div className="bg-gradient-to-br from-vscode-syntax-magenta/10 to-transparent border-2 border-vscode-border rounded-lg p-6 hover:border-vscode-syntax-magenta transition-all">
               <h3 className="text-xl font-bold text-vscode-syntax-magenta mb-4">Languages</h3>
               <ul className="space-y-2.5 text-vscode-text text-sm">
-                <li>• Python</li>
                 <li>• Java</li>
-                <li>• TypeScript</li>
                 <li>• JavaScript</li>
                 <li>• C/C++</li>
+                <li>• HTML</li>
+                <li>• CSS</li>
               </ul>
             </div>
 
@@ -182,7 +182,6 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
               <h3 className="text-xl font-bold text-vscode-syntax-blue mb-4">Frontend</h3>
               <ul className="space-y-2.5 text-vscode-text text-sm">
                 <li>• React & Next.js 15</li>
-                <li>• TypeScript</li>
                 <li>• Tailwind CSS</li>
               </ul>
             </div>
@@ -202,14 +201,12 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                 <li>• PostgreSQL</li>
                 <li>• MongoDB Atlas</li>
                 <li>• MySQL</li>
-                <li>• Database Design</li>
               </ul>
             </div>
 
             <div className="bg-gradient-to-br from-vscode-syntax-blue/10 to-transparent border-2 border-vscode-border rounded-lg p-6 hover:border-vscode-syntax-blue transition-all col-span-1 md:col-span-2 lg:col-span-4">
               <h3 className="text-xl font-bold text-vscode-syntax-blue mb-4">Cloud, DevOps & Tools</h3>
               <ul className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-2.5 text-vscode-text text-sm">
-                <li>• AWS (Elastic Beanstalk, RDS)</li>
                 <li>• Azure DevOps</li>
                 <li>• Vercel & Render</li>
                 <li>• GitHub Actions (CI/CD)</li>
