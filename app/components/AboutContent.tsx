@@ -112,7 +112,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                     </button>
                     <button
                       onClick={() =>
-                        onOpenFile("hi.pdf", "hi.pdf")
+                        onOpenFile("hi.pdf", "resume.pdf")
                       }
                       className="px-5 py-2.5 bg-vscode-sidebar border border-vscode-border text-white rounded hover:border-vscode-activityBarBadge transition-all flex items-center gap-2 font-medium"
                     >
