@@ -117,44 +117,6 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
           </div>
         </motion.div>
 
-        {/* Certifications */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="mb-12"
-        >
-          <div className="flex items-center gap-3 mb-6">
-            <Award className="text-vscode-syntax-green" size={28} />
-            <h2 className="text-3xl font-bold text-vscode-syntax-green">Certifications</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { name: 'Technical Support Fundamentals', issuer: 'Google', date: 'Aug 2023', color: 'blue' },
-              { name: 'Java (Basic)', issuer: 'HackerRank', date: 'Sep 2023', color: 'green' },
-              { name: 'The Bits and Bytes of Computer Networking', issuer: 'Google', date: 'Aug 2024', color: 'cyan' }
-            ].map((cert, idx) => {
-              const colorClass = cert.color === 'blue' ? 'from-vscode-syntax-blue/10' : 
-                                 cert.color === 'green' ? 'from-vscode-syntax-green/10' : 
-                                 'from-vscode-syntax-cyan/10';
-              const borderColor = cert.color === 'blue' ? 'hover:border-vscode-syntax-blue' : 
-                                  cert.color === 'green' ? 'hover:border-vscode-syntax-green' : 
-                                  'hover:border-vscode-syntax-cyan';
-              const textColor = cert.color === 'blue' ? 'text-vscode-syntax-blue' : 
-                                cert.color === 'green' ? 'text-vscode-syntax-green' : 
-                                'text-vscode-syntax-cyan';
-              
-              return (
-                <div key={idx} className={`p-4 bg-gradient-to-br ${colorClass} to-transparent border-2 border-vscode-border rounded-lg ${borderColor} transition-all`}>
-                  <p className="font-semibold text-white text-sm mb-1">{cert.name}</p>
-                  <p className={`text-xs ${textColor}`}>{cert.issuer}</p>
-                  <p className="text-xs text-vscode-textMuted mt-2">{cert.date}</p>
-                </div>
-              );
-            })}
-          </div>
-        </motion.div>
-
         {/* Tech Stack */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

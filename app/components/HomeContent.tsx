@@ -41,7 +41,7 @@ export default function HomeContent() {
     },
     techStack: [                                // 🔧 Your main technologies (6-8 items)
       "Next.js 15 & React", "HTML & CSS",
-      "JavaScript", "TypeScript",
+      "JavaScript",
       "Node.js",
       "Java",
       "PostgreSQL & MongoDB",
