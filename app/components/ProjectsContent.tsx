@@ -48,7 +48,7 @@ export default function ProjectsContent() {
         'Session Context',
         '51 Jest tests - 90% faster deployment'
       ],
-      icon: Database,                                           // 🔧 Icon component (Database, Cloud, Code)
+      icon: Code,                                           // 🔧 Icon component (Database, Cloud, Code)
       color: 'blue',                                           // 🔧 Color theme (blue, green, purple)
       demoLink: 'N/A',           // 🔧 Live demo link (or null)
       githubLink: 'https://github.com/abmbodj/ArchieAI'  // 🔧 GitHub repository link
