@@ -346,65 +346,6 @@ and device rollouts.
             })}
           </div>
         </motion.section>
-
-        {/* Certifications */}
-        <motion.section
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className="mb-16"
-        >
-          <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
-            <Award className="text-vscode-syntax-green" size={32} />
-            Certifications
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              {
-                name: "Technical Support Fundamentals",
-                issuer: "Google",
-                date: "Aug 2023",
-                link: "https://coursera.org/share/762b5418af43843fb964b823f5a53f27",
-              },
-              {
-                name: "Java (Basic)",
-                issuer: "HackerRank",
-                date: "Sep 2023",
-                link: "https://www.hackerrank.com/certificates/829c93e0a72b",
-              },
-              {
-                name: "Computer Networking",
-                issuer: "Google",
-                date: "Aug 2024",
-                link: "https://coursera.org/share/73da16d14994c58bb3d0bb39f44f1372",
-              },
-            ].map((cert, idx) => (
-              <a
-                key={idx}
-                href={cert.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-vscode-sidebar border border-vscode-border rounded-lg p-5 hover:border-vscode-syntax-green transition-all group cursor-pointer block"
-              >
-                <div className="flex items-start justify-between mb-3">
-                  <Award className="text-vscode-syntax-green" size={24} />
-                  <ExternalLink
-                    size={14}
-                    className="text-vscode-textMuted group-hover:text-vscode-syntax-green transition-colors"
-                  />
-                </div>
-                <h3 className="font-semibold text-white text-sm mb-2">
-                  {cert.name}
-                </h3>
-                <p className="text-xs text-vscode-syntax-green mb-1">
-                  {cert.issuer}
-                </p>
-                <p className="text-xs text-vscode-textMuted">{cert.date}</p>
-              </a>
-            ))}
-          </div>
-        </motion.section>
       </div>
     </div>
   );
