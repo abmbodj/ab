@@ -38,57 +38,23 @@ export default function ProjectsContent() {
     // 🔧 PROJECT 1: Replace with your most impressive project
     {
       id: 1,                                                    // Keep incrementing
-      name: 'GrowAhead',                                        // 🔧 Project name
-      tagline: 'Micro-Investment Fintech Platform',             // 🔧 One-line description
-      description: 'Full-stack fintech simulation platform with 3 investment strategy models (5%, 8%, 12% returns), featuring interactive dashboards using Recharts and precision financial algorithms calculating 1-10 year portfolio projections.',  // 🔧 Detailed description (2-3 sentences)
-      tech: ['Next.js 15', 'TypeScript', 'Node.js', 'PostgreSQL', 'AWS Elastic Beanstalk', 'AWS RDS', 'Vercel'],  // 🔧 Tech stack
+      name: 'ArchieAI',                                        // 🔧 Project name
+      tagline: 'University-Themed AI Chatbot',             // 🔧 One-line description
+      description: 'AI-powered assistant designed to help users and students with a variety of tasks, from answering questions to providing recommendations and generating content. Built on Ollama for local LLM inference, ArchieAI aims to enhance productivity and make your experience at Arcadia University more efficient and enjoyable.',  // 🔧 Detailed description (2-3 sentences)
+      tech: ['HTML', 'CSS', 'Python', 'Ollama'],  // 🔧 Tech stack
       highlights: [                                             // 🔧 Key achievements (3-5 bullet points)
-        'Secure RESTful API with 15+ endpoints',
-        'JWT authentication & bcrypt hashing',
-        'CI/CD pipeline with GitHub Actions',
+        'Chat History',
+        'Account Management',
+        'Session Context',
         '51 Jest tests - 90% faster deployment'
       ],
       icon: Database,                                           // 🔧 Icon component (Database, Cloud, Code)
       color: 'blue',                                           // 🔧 Color theme (blue, green, purple)
-      demoLink: 'https://growahead-beta.vercel.app',           // 🔧 Live demo link (or null)
-      githubLink: 'https://github.com/BhaveshNank/GrowAhead'  // 🔧 GitHub repository link
+      demoLink: 'N/A',           // 🔧 Live demo link (or null)
+      githubLink: 'https://github.com/abmbodj/ArchieAI'  // 🔧 GitHub repository link
     },
     // 🔧 PROJECT 2: Replace with your second project
-    {
-      id: 2,
-      name: 'VisionTech',
-      tagline: 'AI-Powered E-Commerce Platform',
-      description: 'Production-ready Python/Flask API integrating Google Gemini AI for intelligent product recommendations. Features a component-based React frontend with a Design System of 31 reusable components.',
-      tech: ['Python', 'Flask', 'Google Gemini AI', 'MongoDB', 'React.js', 'Vercel', 'Render'],
-      highlights: [
-        'Google Gemini AI integration',
-        '31 reusable components',
-        'Optimized MongoDB schema',
-        'Prompt engineering for context'
-      ],
-      icon: Cloud,
-      color: 'green',
-      demoLink: 'https://vision-tech-beta.vercel.app',
-      githubLink: 'https://github.com/BhaveshNank/VisionTech'
-    },
     // 🔧 PROJECT 3: Replace with your third project
-    {
-      id: 3,
-      name: 'JavaChatApp',
-      tagline: 'Multi-threaded Java Chat Server',
-      description: 'Built using core OOP principles with design patterns like MVC and Observer. Supports 20+ concurrent clients with comprehensive unit testing suite and CI/CD through Azure DevOps.',
-      tech: ['Java', 'Swing', 'Sockets', 'Multi-threading', 'Azure DevOps'],
-      highlights: [
-        'MVC & Observer patterns',
-        '20+ concurrent clients',
-        'Comprehensive unit testing',
-        'Azure DevOps CI/CD'
-      ],
-      icon: Code,
-      color: 'purple',
-      demoLink: null,                                         // 🔧 Set to null if no live demo
-      githubLink: 'https://github.com/BhaveshNank/JavaChatApp'
-    }
     // 🔧 ADD MORE PROJECTS: Copy the structure above to add more projects
   ];
   // ============================================================================
