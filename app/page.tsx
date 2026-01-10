@@ -234,7 +234,7 @@ export default function Home() {
       'about.html': 'About | Ab Mbodj',
       'projects.json': 'Projects | ab Mbodj',
       'contact.css': 'Contact | ab Mbodj',
-      'resume.pdf': 'Resume | ab Mbodj',
+      'hi.pdf': 'Resume | ab Mbodj',
       'github': 'GitHub | ab Mbodj'
     };
     document.title = tabTitles[activeTab] || 'ab Mbodj | Portfolio';
@@ -423,13 +423,13 @@ export default function Home() {
                                 </button>
 
                                 <button
-                                  onClick={() => openFile('resume.pdf', 'Bhavesh_Nankani_resume.pdf')}
-                                  className={`flex items-center gap-2 px-2 py-1 hover:bg-vscode-hover rounded w-full text-left ${activeTab === 'resume.pdf' ? 'bg-vscode-selection' : ''}`}
+                                  onClick={() => openFile('hi.pdf', 'hi.pdf')}
+                                  className={`flex items-center gap-2 px-2 py-1 hover:bg-vscode-hover rounded w-full text-left ${activeTab === 'hi.pdf' ? 'bg-vscode-selection' : ''}`}
                                 >
                                   <svg className="w-4 h-4" viewBox="0 0 24 24" fill="#e74c3c">
                                     <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z" />
                                   </svg>
-                                  <span className="text-sm text-vscode-text">resume.pdf</span>
+                                  <span className="text-sm text-vscode-text">hi.pdf</span>
                                 </button>
                               </div>
                             )}
@@ -652,10 +652,10 @@ export default function Home() {
                 {activeTab === 'projects.json' && <ProjectsContent />}
                 {activeTab === 'contact.css' && <ContactContent onOpenFile={openFile} />}
                 {activeTab === 'github' && <GitHubProfile />}
-                {activeTab === 'resume.pdf' && (
+                {activeTab === 'hi.pdf' && (
                   <PDFViewer
-                    fileName="Bhavesh_Nankani_resume.pdf"
-                    filePath="/Bhavesh_Nankani_resume.pdf"
+                    fileName="hi.pdf"
+                    filePath="/hi.pdf"
                   />
                 )}
               </motion.div>
